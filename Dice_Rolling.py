@@ -4,9 +4,10 @@ print "Rolling the dice......."
 print (random.randint(1,6))
 
 def dice():
- str = raw_input("yes or no \n")
- if str == "yes" :
+ str = raw_input("Wnat to roll the dice again \n")
+ if str == "yes" or str == "y":
+   print "Rolling the dice...."
    print (random.randint(1,6))
- else :
-   print "no"
+ else:
+   print "stop"
 dice()
