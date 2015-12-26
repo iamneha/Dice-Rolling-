@@ -1,9 +1,12 @@
 #!/usr/bin/python
 import random
-a = 5
-b = raw_input("Guess any number between 1 to 6")
+guess = 0
+a =random.randint(1,6)
 
-def guess():
+while (guess < 3):
+	b = input("Take a guess");
+  	guess = guess + 1
+
 	if b > a:
 	 print 'The no is too high'
 	elif b < a:
@@ -12,4 +15,7 @@ def guess():
 	 print 'You guess correct number'
 	else :
 	 print 'Number not exist'
-guess()
+
+else: 
+	print "you take wrong guess"
+
