@@ -12,10 +12,8 @@ while (guess < 3):
 	elif b < a:
 	 print 'The no is too low'
 	elif b == a:
-	 print 'You guess correct number'
-	else :
-	 print 'Number not exist'
+	 break
 
-else: 
-	print "you take wrong guess"
+if guess == a:
+	print "you take right guess"
 
