@@ -1,4 +1,7 @@
 #!/usr/bin/python
+#This is a game in which system guess number and player
+#has to identify which number system guesses
+
 import random
 guess = 0
 print "I am thinking number between 1 to 6"
